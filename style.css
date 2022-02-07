@@ -1,0 +1,95 @@
+body {
+  background-image: url(resources/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: "lucida console"
+}
+
+/* responsive-layout */
+.outer {
+  display: table;
+  position: absolute;
+  height: 99%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  padding: 100px;
+  margin: auto;
+}
+
+/* header */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+h1 {
+  color: #00dd00;
+  text-align: center;
+}
+
+/* bottoni */
+nav {
+  background-color: #00dd00;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+/* monopattini */
+section {
+  padding-top: 40px;
+}
+
+h2 {
+  display: inline-block;
+  color: white;
+  margin: 0px;
+}
+
+p {
+  margin: 4px;
+}
+
+/* charge-bars */
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: white;
+}
+
+.charge-bar {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.charge_76-100 {
+  width: 77%;
+  background-color: #1ec31e;
+}
+
+.charge_26-50 {
+  width: 50%;
+  background-color: #fea726;
+}
+
+.charge_1-25 {
+  width: 25%;
+  background-color: #be4141;
+}
