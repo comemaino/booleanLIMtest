@@ -63,6 +63,10 @@ p {
   margin: 4px;
 }
 
+.address:before {
+  content: "\2192"
+}
+
 /* charge-bars */
 span {
   display: inline-block;
@@ -84,12 +88,17 @@ span {
   background-color: #1ec31e;
 }
 
+.charge_51-75 {
+  width: ;
+  background-color: #ffff66;
+}
+
 .charge_26-50 {
   width: 50%;
   background-color: #fea726;
 }
 
 .charge_1-25 {
-  width: 25%;
+  width: 22%;
   background-color: #be4141;
 }
